@@ -5,7 +5,9 @@ Simple Dockerfile to setup development environment very quickly.
 # How to setup
 
 1 - In terminal, move into your PHP projects directory.
+
 2 - Copy Dockerfile into directory.
+
 3 - Run command in terminal: 'docker build -t webserver .'
 
 4 - If 'webserver' image has been built succesfully, run another command in terminal: 'docker run -ti --name Webserver -p 3306:3306 -p 80:80 -e MYSQL_ROOT_PASSWORD=password -v $(pwd):/var/www/html webserver /bin/bash'
