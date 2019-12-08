@@ -17,8 +17,11 @@ Simple Dockerfile to setup development environment very quickly.
 Explanation:
 
 --name Webserver - this flag will set 'Webserver' as container name
+
 -p - wil match container port with host port
+
 -e - allows to set environment variable
+
 -v - will create volume that you can share with container, for example you can share your PHP projects directory from host machine witch /var/www/html directory in your container.
 
 The last two parameters are: image name and process name to run in container
