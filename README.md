@@ -12,7 +12,7 @@ Simple Dockerfile to setup development environment very quickly.
 
 4 - If 'webserver' image has been built succesfully, run another command in terminal: 'docker run -ti --name Webserver -p 3306:3306 -p 80:80 -e MYSQL_ROOT_PASSWORD=password -v $(pwd):/var/www/html webserver /bin/bash'
 
-5 - That's all. Now you can modify your PHP projects and preview changes in your host machine browser by typing URL 'http://localhost:80'. You can also connect to the MySql database with provided password in docker run command.
+5 - That's all. Now you can modify your PHP projects and preview changes on your host machine browser by typing URL 'http://localhost:80'. You can also connect to the MySql database with provided password in docker run command.
 
 Explanation:
 
