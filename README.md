@@ -4,7 +4,7 @@ Simple Dockerfile to setup development environment very quickly.
 
 # How to setup
 
-1 - In terminal, move into your PHP projects directory.
+**1** - In terminal, move into your PHP projects directory.
 
 2 - Copy Dockerfile into directory.
 
